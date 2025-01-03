@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "typings/",
+    "esModuleInterop": true,
+    "module": "Node16",
+    "outDir": "lib/",
+    "rootDir": "src/",
+    "target": "ES2019",
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "incremental": true,
+    "noErrorTruncation": true,
+    "stripInternal": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}

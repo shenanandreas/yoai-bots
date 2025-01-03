@@ -1,0 +1,41 @@
+{
+  "name": "yoai-bots",
+  "private": true,
+  "version": "0.0.1",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": " rimraf ./dist && tsc",
+    "build:docs": "typedoc src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "rimraf": "^6.0.1",
+    "typescript": "~5.6.2"
+  },
+  "engines": {
+    "node": "^18.20.0 || >=20.13.1"
+  },
+  "types": "./typings/index.d.ts",
+  "files": [
+    "src/**/*.ts",
+    "lib/**/*.js",
+    "typings/**/*.d.ts",
+    "typings/**/*.d.ts.map",
+    "types.*"
+  ],
+  "keywords": [
+    "yoai",
+    "yophone",
+    "yophone bot api",
+    "bot"
+  ],
+  "dependencies": {
+    "axios": "^1.7.9",
+    "form-data": "^4.0.1"
+  }
+}
