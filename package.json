@@ -1,12 +1,19 @@
 {
   "name": "yoai-bots",
-  "private": true,
   "version": "0.0.1",
   "type": "commonjs",
   "main": "lib/index.js",
+  "homepage": "https://yoai.yophone.com",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/shenanandreas/yoai-bots"
   },
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraf/issues"
+  },
+  "author": "YoAI Entusiast",
+  "license": "MIT",
+  "description": "YoAi bot library",
   "scripts": {
     "dev": "vite",
     "build": " rimraf ./dist && tsc",
